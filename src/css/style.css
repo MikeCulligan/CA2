@@ -1,0 +1,61 @@
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+    background-color: grey;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.movieDisplayBox {
+    margin: 30px auto;
+    position: relative;
+    border: 3px solid #f1f1f1;
+    padding: 15px;
+    width: 267px;
+}
+
+.movieChoiceBox {
+    margin: 30px auto;
+    /* width: 500px; */
+    position: relative;
+    border: 3px solid #f1f1f1;
+    padding: 15px;
+}
+
+.posterDisplayBox {
+    height: 100%;
+    /*position: absolute;*/
+    width: 267px;
+}
+
+.submitButton {
+    background-color: #e90052;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+    text-shadow: 2px 2px #38003c;
+    cursor: pointer;
+}
